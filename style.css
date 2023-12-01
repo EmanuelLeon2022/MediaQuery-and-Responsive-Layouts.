@@ -1,0 +1,186 @@
+@media screen and (max-width: 1880px) {
+    body {
+      /* background-color: lightblue; */
+      background-image: url(https://sonic.sega.jp/SonicChannel/character/image/sonic.jpg);
+    }
+    .navbar{
+        border:solid peru;
+        height:200px;
+        width:50vw;
+        color:lemonchiffon;
+        margin:1em;
+    }
+    .ad{
+        border:solid lemonchiffon;
+        background-color: rgb(136, 105, 105);
+        display:block;
+        margin:2em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:blue;
+        padding:1em;
+        text-align:left;
+        font-family:cursive;
+    }
+    .desc2{
+        color:orange;
+        padding:1em;
+        text-align:left;
+        font-family:cursive;
+    }
+    .desc3{
+        color:red;
+        padding:1em;
+        text-align:left;
+        font-family:cursive;
+    }
+    .main{
+        display:flex;
+        flex-wrap:none;
+    }
+    .magic{
+        height:550px;
+        width:290px;
+        border:solid blue;
+        background-image: url('https://sonic.sega.jp/SonicChannel/enjoy/image/wallpaper_223_sonic_25_sp.png');
+        background-size:cover;
+    }
+    .sugar{
+        height:550px;
+        width:290px;
+        border:solid orange;
+        background-image: url('https://sonic.sega.jp/SonicChannel/enjoy/image/wallpaper_220_tails_16_sp.png');
+        background-size:cover;
+    }
+    .spice{
+        height:550px;
+          width:290px;
+          border:solid red;
+          background-image:url('https://sonic.sega.jp/SonicChannel/enjoy/image/wallpaper_224_knuckles_17_sp.png');
+          background-size:cover;
+    }
+  }
+
+@media screen and (max-width:990px) {
+    body {
+      /* background-color: grey; */
+      background-image: url(https://sonic.sega.jp/SonicChannel/character/image/tails.jpg);
+    }
+    .navbar{
+        border:solid salmon;
+        height:200px;
+        width:50vw;
+        color:blue;
+        margin:1em;
+    }
+    .ad{
+        border:solid salmon;
+        display:block;
+        margin:.4em;
+    }
+    
+    .mainPic{
+        height:100px;
+        width:100px;
+    }
+    .desc{
+        color:blue;
+        padding:1em;
+        text-align:center;
+        font-size:12px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .desc2{
+        color:orange;
+        padding:1em;
+        text-align:left;
+        font-family:cursive;
+    }
+    .main{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .magic{
+        height:550px;
+        width:290px;
+        border:solid orange;
+        background-image: url('https://sonic.sega.jp/SonicChannel/enjoy/image/wallpaper_220_tails_16_sp.png');
+        background-size:cover;
+    }
+    .sugar{
+        height:550px;
+        width:290px;
+        border:solid orange;
+        background-image: url('https://sonic.sega.jp/SonicChannel/enjoy/image/wallpaper_220_tails_16_sp.png');
+        background-size:cover;
+    }
+    .spice{
+        height:550px;
+          width:290px;
+          border:solid red;
+          background-image:url('https://sonic.sega.jp/SonicChannel/enjoy/image/wallpaper_224_knuckles_17_sp.png');
+          background-size:cover;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        /* background-color: black; */
+        background-image: url(https://sonic.sega.jp/SonicChannel/character/image/knuckles.jpg);
+      }
+      .navbar{
+          border:solid white;
+          height:200px;
+        width:50vh;
+        color:lime;
+        margin:1em;
+        
+      }
+      .ad{
+          border:solid white;
+          display:block;
+          margin:1em;
+      }
+      
+      .mainPic{
+          height:100px;
+          width:100px;
+      }
+      .desc{
+          color:blue;
+          padding:1em;
+          text-align:right;
+          font-size:22px;
+          font-family:'Courier New', Courier, monospace;
+      }
+      .main{
+          display:block;
+          flex-wrap:none;
+      }
+      .magic{
+        height:550px;
+        width:290px;
+        border:solid red;
+        background-image:url('https://sonic.sega.jp/SonicChannel/enjoy/image/wallpaper_224_knuckles_17_sp.png');
+        background-size:cover;
+      }
+      .sugar{
+        height:550px;
+        width:290px;
+        border:solid red;
+        background-image: url('https://sonic.sega.jp/SonicChannel/enjoy/image/wallpaper_224_knuckles_17_sp.png');
+        background-size:cover;
+    }
+    .spice{
+        height:550px;
+          width:290px;
+          border:solid red;
+          background-image:url('https://sonic.sega.jp/SonicChannel/enjoy/image/wallpaper_224_knuckles_17_sp.png');
+          background-size:cover;
+    }
+}
